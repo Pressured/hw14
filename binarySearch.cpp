@@ -13,9 +13,8 @@ void search(const int a[], int first, int last, int key, bool& found, int& locat
 int main( )
 {
 	int a[ARRAY_SIZE] = 
-        {10, 43, 55, 0, 1, 2, 100, 123, 
-        196, 199, 202, 222, 600, 676, 747, 
-        421, 598, 245, 331, 388};
+        { 0, 1, 2, 10, 43, 55, 100, 123, 
+        196, 199, 202, 222, 245, 331, 388, 421, 598, 600, 676, 747};
 
 	const int final_index = ARRAY_SIZE;
 
